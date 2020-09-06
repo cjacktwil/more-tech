@@ -1,0 +1,30 @@
+<section>
+
+{{#if posts.length}}
+<section>
+  <h2>Your Posts</h2>
+  <ol>
+    {{#each posts as |post|}}
+    <li>
+     <article class="post">
+      <div class="title">
+        <a href="/dashboard/edit/{{post.id}}">
+        {{title}} {{format_date created_at}}
+        </a>
+        </div>
+        <div class="post_text">
+        {{post_text}}
+      </div>
+    </article>
+    </li>
+    {{/each}}
+  </ol>
+</section>
+{{/if}}
+<button id="add_post"><a href="/add-post">NEW POST</a></button>
+
+</section>
+
+
+
+{{!-- <script src="/javascript/editPost.js"></script> --}}

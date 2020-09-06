@@ -56,10 +56,17 @@ router.post('/', (req, res) => {
         username: req.body.username,
         password: req.body.password
     })
-    .then(dbUserData => {
-        res.json(dbUserData);
-        return;
+        .then(dbUserData => {
+        req.session.save(() => {
+          req.session.user_id = dbUserData.id;
+          req.session.username = dbUserData.username;
+          req.session.loggedIn = true;
+
+    // .then(dbUserData => {
+        res.json(dbUserData)
+    //     return;
     })
+})
     .catch(err => {
         res.status(500).json({ message: err})
     })
@@ -87,7 +94,7 @@ router.post('/', (req, res) => {
 router.post('/login', (req, res) => {
 User.findOne({
     where: {
-        email: req.body.email
+        username: req.body.username
     }
 }).then(dbUserData => {
     if (!dbUserData) {
