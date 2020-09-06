@@ -5,7 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>More Tech</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/style.css">
+  {{!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"> --}}
   {{!-- <link rel="skeleton" href="/css/skeleton.css">
   <link rel="normalize" href="/css/normalize.css"> --}}
   {{!-- <link rel="stylesheet" href="/css/style.css"> --}}
@@ -21,13 +22,14 @@
       <button id="logout" class="btn-no-style">Logout</button>
       {{else}}
       <a href="/login">Login</a>
-      {{!-- <button id="logout" class="btn-no-style">Logout</button> --}}
       {{/if}}
     </nav>
-    <h1>
+        </header>
+
+    <div class="main-title">
         <a href="/">More Tech</a>
-      </h1>
-    </header>
+      </div>
+
     <main>
       {{{ body }}}
     </main>

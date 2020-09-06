@@ -3,7 +3,7 @@
 {{#if posts.length}}
 <section>
   <h2>Your Posts</h2>
-  <ol>
+  <ul>
     {{#each posts as |post|}}
     <li>
      <article class="post">
@@ -18,10 +18,10 @@
     </article>
     </li>
     {{/each}}
-  </ol>
+  </ul>
 </section>
 {{/if}}
-<button id="add_post"><a href="/add-post">NEW POST</a></button>
+<button id="add_post" class="add-post"><a href="/add-post">NEW POST</a></button>
 
 </section>
 
