@@ -19,11 +19,11 @@ Clone the repo and run NPM install.
 ## Usage
 Upon first visiting the site, users are prompted to log-in or sign-up for an account. Once they are logged in, they can view all posts on the Home Page, or view their own posts on the Dashboard.
 
-![Login Functionality](./public/images/login-screenshot.png)
+![Login Functionality] (./public/images/login-screenshot.png)
 
-![Homepage](./public/images/homepage-screenshot.png)
+![Homepage] (./public/images/homepage-screenshot.png)
 
-![Dashboard](./public/images/dashboard-screenshot.png)
+![Dashboard] (./public/images/dashboard-screenshot.png)
 
 Users can also add comments to existing posts, add a new post, or edit their existing posts by clicking on a post.
 
