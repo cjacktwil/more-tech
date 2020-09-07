@@ -181,6 +181,13 @@ main {
   padding: 5px;
 }
 
+.redirect a {
+  color: #231313;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 5px;
+}
+
 ul {
   padding: 0;
   list-style: none;
