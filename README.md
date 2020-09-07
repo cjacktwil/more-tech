@@ -2,6 +2,8 @@
 # More Tech Blog Site
 [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 
+## [Deployed link](https://lit-springs-36043.herokuapp.com/)
+
 ## Description
 The More Tech blog site is a content management system for tech content. Visitors can review tech-based blog posts, add comments, or post their own content.
   
@@ -17,11 +19,11 @@ Clone the repo and run NPM install.
 ## Usage
 Upon first visiting the site, users are prompted to log-in or sign-up for an account. Once they are logged in, they can view all posts on the Home Page, or view their own posts on the Dashboard.
 
-[Login Functionality](./images/login-screenshot.png)
+![Login Functionality](./public/images/login-screenshot.png)
 
-[Homepage](./public/images/homepage-screenshot.png)
+![Homepage](./public/images/homepage-screenshot.png)
 
-[Dashbaord](more-tech\public\images\dashboard-screenshot.png)
+![Dashbaord](.\public\images\dashboard-screenshot.png)
 
 Users can also add comments to existing posts, add a new post, or edit their existing posts by clicking on a post.
 
