@@ -21,7 +21,7 @@ Upon first visiting the site, users are prompted to log-in or sign-up for an acc
 
 ![Login Functionality](./public/images/login-screenshot.png)
 
-![Homepage](./public/images/homepage-screenshot.png)
+![Homepage](./public/images/hompage-screenshot.png)
 
 ![Dashboard](./public/images/dashboard-screenshot.png)
 
