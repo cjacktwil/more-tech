@@ -23,7 +23,7 @@ Upon first visiting the site, users are prompted to log-in or sign-up for an acc
 
 ![Homepage](./public/images/homepage-screenshot.png)
 
-![Dashbaord](.\public\images\dashboard-screenshot.png)
+![Dashboard](./public/images/dashboard-screenshot.png)
 
 Users can also add comments to existing posts, add a new post, or edit their existing posts by clicking on a post.
 
